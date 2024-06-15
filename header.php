@@ -144,10 +144,14 @@
     function scrollFunction() {
         if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
             document.getElementById("logo").style.height = "60px";
+            document.getElementById("navbar").classList.add("header-bg");
+
 
         } else {
             document.getElementById("logo").style.height = "100px";
             document.getElementById("logo").style.transition = "ease-in 0.3s";
+            document.getElementById("navbar").classList.remove("header-bg");
+
 
         }
     }

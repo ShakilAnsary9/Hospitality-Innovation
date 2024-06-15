@@ -3,6 +3,7 @@ COPYRIGHT 2020 - NETSQURE TECHNOLOGIES PVT. LTD. ALL RIGHTS RESERVED
 */
 
 @import "variables";
+@import "odometer";
 
 // Plugin
 @import "plugin/modal";
@@ -41,17 +42,15 @@ hr {
 
 // Front Page CSS
 @import "front-page/hero";
-@import "front-page/partners";
-@import "front-page/stats";
-@import "front-page/about";
-@import "front-page/meet";
-@import "front-page/feature";
-@import "front-page/meetings";
-@import "front-page/client-testimonials";
 @import "front-page/speakers";
+@import "front-page/our-clients";
+@import "front-page/event-numbers";
+@import "front-page/about";
+@import "front-page/you-meet";
+@import "front-page/features";
+@import "front-page/meetings";
 @import "front-page/testimonials";
-@import "front-page/gallery";
-@import "front-page/contact";
+
 @import "footer";
 
 // Agenda Page

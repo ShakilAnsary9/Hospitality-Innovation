@@ -1,0 +1,31 @@
+.you__meet {
+  margin: 3rem 0;
+  .meet_card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    aspect-ratio: 16/9;
+    background-image: url(http://europe.redevelopmentsummit.com/wp-content/uploads/2024/06/innovation-pattern.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: all ease-in 0.3s;
+    h4 {
+      text-transform: uppercase;
+      font-size: 2.5rem;
+      padding: 0 40px;
+      color: var(--primary-color);
+    }
+    &:hover {
+      background-image: none;
+      background: rgb(39, 14, 9);
+      background: linear-gradient(
+        90deg,
+        rgba(39, 14, 9, 1) 0%,
+        rgba(51, 21, 11, 1) 100%
+      );
+      border: 2px solid var(--primary-color);
+    }
+  }
+}

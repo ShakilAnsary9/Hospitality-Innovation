@@ -1,0 +1,21 @@
+section.meetings {
+  padding: 0 !important;
+}
+.meetings {
+  background-color: var(--primary-dark);
+
+  .meeting__img {
+    height: 100%;
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+  .meeting__info {
+    padding: 4rem 2rem;
+    p {
+      text-align: justify;
+    }
+  }
+}

@@ -1,0 +1,37 @@
+.speakers {
+  background-color: var(--primary-dark);
+  padding: 8rem 0;
+  .speaker__btn {
+    margin-top: 3rem;
+
+    a {
+      font-size: 1.6rem;
+      text-transform: uppercase;
+      border: 1px solid var(--primary-color);
+      padding: 5px 35px;
+      border-radius: 8px;
+    }
+  }
+  .speaker__img {
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+  .speaker__box {
+    color: var(--primary-color);
+    h5 {
+      text-transform: uppercase;
+      font-size: 2rem;
+      margin-top: 20px;
+    }
+    p {
+      margin: 0;
+      line-height: 1;
+      &:last-child {
+        margin-top: 10px;
+        font-weight: bold;
+      }
+    }
+  }
+}
