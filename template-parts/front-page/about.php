@@ -5,26 +5,16 @@
                 <div class="about__info">
                     <h2>About Our Event</h2>
                     <p>
-                        Over USD1 trillion worth of real estate and infrastructure projects, including
-                        315000 hotel keys, are under development or in the pipeline in the Kingdom of Saudi Arabia. This
-                        aggrasive construction in Saudi is part of the kingdoms goal to attract 100 millions visitors to
-                        its
-                        borders as a part of the Vision 2030 plan, making it the leader in the hotel develoment in the
-                        entire of
-                        Middle East and Africa.<br><br>
-
-                        KSA is followed by United Arab Emirates, a long-standing pioneer in the region, the UAE
-                        Hospitality
-                        Market size is expected to grow from USD 7371.2 million in 2023 to USD 9459.8 million by 2028
-                        with a
-                        further 48,000 rooms added to the country’s extensive 200,000 key portfolio.<br><br>
-
-                        With these 2 countries paving the way for futuristic developments and setting standards the
-                        world
-                        has
-                        seldom seen, HIS brings you the best from KSA & UAE.
-
-
+                        Africa hotel market is a promising one with an expected market surge from US$12.10bn in 2024 to
+                        US$14.83bn by 2028 with an impressive pipeline of over 92,000 rooms in 524 hotels, in 41
+                        countries in Africa. As the tourism market is predicted to hit a value of whooping $731.4bn by
+                        2032, Africa is the next big thing in the hospitality industry. HIS Africa brings a host of
+                        opportunities to this flourishing region by connecting top decision makers from some of the
+                        largest hotel brands and projects, with the innovative solution providers from across the globe.
+                        In addition, thought leaders and African hospitality business moguls will also come together to
+                        share their insights and experiences. With stringently pre-qualified delegates and globally
+                        renowned brands in attendance, the summit custom matches every business requirement to deliver
+                        Crafted Networking Excellence.
                     </p>
                 </div>
 

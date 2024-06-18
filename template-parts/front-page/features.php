@@ -6,62 +6,62 @@
         <div class="row g-3 mt-3">
             <div class="col-6 col-md-3">
                 <div class="feature__card">
-                    <h4>Distinguished speakers</h4>
+                    <h4>Pre-Qualified Delegates</h4>
                 </div>
             </div>
             <div class="col-6 col-md-3">
                 <div class="feature__card">
-                    <h4>Distinguished speakers</h4>
+                    <h4>Global Suppliers</h4>
                 </div>
             </div>
             <div class="col-6 col-md-3">
                 <div class="feature__card">
-                    <h4>Distinguished speakers</h4>
+                    <h4>Distinguished Speakers</h4>
                 </div>
             </div>
             <div class="col-6 col-md-3">
                 <div class="feature__card">
-                    <h4>Distinguished speakers</h4>
+                    <h4>Network of Industry Associations</h4>
                 </div>
             </div>
             <div class="col-6 col-md-3">
                 <div class="feature__card">
-                    <h4>Distinguished speakers</h4>
+                    <h4>Prior Notification of Attendees</h4>
                 </div>
             </div>
             <div class="col-6 col-md-3">
                 <div class="feature__card">
-                    <h4>Distinguished speakers</h4>
+                    <h4>Strategized Networking</h4>
                 </div>
             </div>
             <div class="col-6 col-md-3">
                 <div class="feature__card">
-                    <h4>Distinguished speakers</h4>
+                    <h4>Influential Media</h4>
                 </div>
             </div>
             <div class="col-6 col-md-3">
                 <div class="feature__card">
-                    <h4>Distinguished speakers</h4>
+                    <h4>Customized Business Meetings</h4>
                 </div>
             </div>
             <div class="col-6 col-md-3">
                 <div class="feature__card">
-                    <h4>Distinguished speakers</h4>
+                    <h4>Dedicated Account Managers</h4>
                 </div>
             </div>
             <div class="col-6 col-md-3">
                 <div class="feature__card">
-                    <h4>Distinguished speakers</h4>
+                    <h4>Engaging Agenda</h4>
                 </div>
             </div>
             <div class="col-6 col-md-3">
                 <div class="feature__card">
-                    <h4>Distinguished speakers</h4>
+                    <h4>End-to-end Seamless Experience</h4>
                 </div>
             </div>
             <div class="col-6 col-md-3">
                 <div class="feature__card">
-                    <h4>Distinguished speakers</h4>
+                    <h4>Decision Makers Only Platform</h4>
                 </div>
             </div>
         </div>

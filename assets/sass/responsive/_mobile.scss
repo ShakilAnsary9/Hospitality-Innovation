@@ -7,6 +7,12 @@
       font-size: 12px;
       line-height: unset;
     }
+    h2 {
+      font-size: 3rem;
+    }
+    .tag__title {
+      font-size: 1.5rem;
+    }
   }
   //Navbar
   .hero-logo {
@@ -96,6 +102,10 @@
     }
   }
 
+  .about .about__info {
+    padding: 0 1rem;
+  }
+
   // Who Meet
   .who-meet {
     clip-path: none;
@@ -103,6 +113,28 @@
       height: 120px;
     }
   }
+
+  .you__meet .meet_card h4 {
+    font-size: 1.2rem;
+  }
+
+  //meeeting
+  .meetings .meeting__info {
+    padding: 4rem 1rem;
+  }
+
+  //testimonial
+  .testimonials {
+    .testimonial__wrapper {
+      margin: 0;
+    }
+    .swiper-button-next,
+    .swiper-button-prev {
+      display: none;
+    }
+  }
+
+  //hear-client
 
   //Feature
   .feature {
@@ -196,6 +228,21 @@
   }
   .agenda-title {
     margin-top: 5rem;
+  }
+
+  //event number
+  .event__numbers {
+    .number__box {
+      h5 {
+        font-size: 3rem;
+      }
+      .sign {
+        font-size: 2rem;
+      }
+      h6 {
+        font-size: 2rem;
+      }
+    }
   }
 }
 

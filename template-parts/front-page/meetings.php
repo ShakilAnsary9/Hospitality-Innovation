@@ -3,7 +3,8 @@
         <div class="row">
             <div class="col-12 col-md-6">
                 <div class="meeting__img">
-                    <img src="https://i.postimg.cc/nV0z1N2w/meetings-4.jpg" alt="">
+                    <img src="http://saudiarabia.redevelopmentsummit.com/wp-content/uploads/2024/06/meetings-4y.jpg"
+                        alt="">
                 </div>
             </div>
             <div class="col-12 col-md-6">

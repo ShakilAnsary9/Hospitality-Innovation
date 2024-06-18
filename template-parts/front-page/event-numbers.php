@@ -9,7 +9,7 @@
                     <div class="col-6 col-lg-3">
                         <div class="number__box">
                             <div class="d-flex align-items-center justify-content-center">
-                                <h5 class="odometer" data-value="18">0</h5>
+                                <h5 class="odometer" data-value="19">0</h5>
                                 <span class="sign"></span>
                             </div>
                             <h6>Events</h6>
@@ -18,7 +18,7 @@
                     <div class="col-6 col-lg-3">
                         <div class="number__box">
                             <div class="d-flex align-items-center justify-content-center">
-                                <h5 class="odometer" data-value="400">0</h5>
+                                <h5 class="odometer" data-value="430">0</h5>
                                 <span class="sign">+</span>
                             </div>
                             <h6>Speakers</h6>
@@ -27,16 +27,16 @@
                     <div class="col-6 col-lg-3">
                         <div class="number__box">
                             <div class="d-flex align-items-center justify-content-center">
-                                <h5 class="odometer" data-value="1100">0</h5>
+                                <h5 class="odometer" data-value="1200">0</h5>
                                 <span class="sign">+</span>
                             </div>
-                            <h6>Sponsors</h6>
+                            <h6>Solution Provider</h6>
                         </div>
                     </div>
                     <div class="col-6 col-lg-3">
                         <div class="number__box">
                             <div class="d-flex align-items-center justify-content-center">
-                                <h5 class="odometer" data-value="1800">0</h5>
+                                <h5 class="odometer" data-value="2000">0</h5>
                                 <span class="sign">+</span>
                             </div>
                             <h6>Buyers</h6>
@@ -45,7 +45,7 @@
                     <div class="col-6 col-lg-3">
                         <div class="number__box">
                             <div class="d-flex align-items-center justify-content-center">
-                                <h5 class="odometer" data-value="18000">0</h5>
+                                <h5 class="odometer" data-value="19000">0</h5>
                                 <span class="sign">+</span>
                             </div>
                             <h6>B2B Meetings</h6>

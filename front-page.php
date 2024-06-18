@@ -29,6 +29,12 @@ get_header(); ?>
     <!-- Testimonials Section -->
     <?php get_template_part("template-parts/front-page/testimonials"); ?>
 
+    <!-- Hear Clients Section -->
+    <?php get_template_part("template-parts/front-page/hear-clients"); ?>
+
+    <!-- Gallery Section -->
+    <?php get_template_part("template-parts/front-page/gallery"); ?>
+
 </div>
 
 <!-- Footer -->

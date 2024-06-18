@@ -28,40 +28,16 @@
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-0NLGC2YPEB"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'G-0NLGC2YPEB');
-    </script>
-
-    <!-- Event snippet for 15th REDS conversion page -->
-    <script>
-    gtag('event', 'conversion', {
-        'send_to': 'AW-794171173/S0_eCO6O5Z4ZEKWu2PoC'
-    });
-    </script>
 
     <!-- Facebook Meta Tags -->
-    <meta property="og:url" content="https://europe.redevelopmentsummit.com">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="15th Real Estate Development Summit Saudi Arabia - Europe Edition">
-    <meta property="og:description" content="">
     <meta property="og:image"
-        content="https://europe.redevelopmentsummit.com/wp-content/uploads/2024/03/Preview-image-rectangle1.jpg">
+        content="http://europe.redevelopmentsummit.com/wp-content/uploads/2024/06/HIS-Africa_Preview-Image-03.jpg">
 
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta property="twitter:domain" content="europe.redevelopmentsummit.com">
-    <meta property="twitter:url" content="https://europe.redevelopmentsummit.com">
-    <meta name="twitter:title" content="15th Real Estate Development Summit Saudi Arabia - Europe Edition">
     <meta name="twitter:description" content="">
     <meta name="twitter:image"
-        content="https://europe.redevelopmentsummit.com/wp-content/uploads/2024/03/Preview-image-rectangle1.jpg">
+        content="http://europe.redevelopmentsummit.com/wp-content/uploads/2024/06/HIS-Africa_Preview-Image-03.jpg">
 
     <?php wp_head(); ?>
 </head>

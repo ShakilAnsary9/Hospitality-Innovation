@@ -24,7 +24,7 @@
                     src="http://redseurope.netsqure.in/wp-content/uploads/2024/03/REDS-Europe-Website-Design_Cover-Image-021.jpg"
                     alt="">
                 <!-- Remove d-none if video need -->
-                <video autoplay muted loop style class="hero-video d-none">
+                <video autoplay muted loop style class="hero-video">
                     <source
                         src="http://europe.redevelopmentsummit.com/wp-content/uploads/2024/04/REDS-Website-Cover-Video_V31.mp4"
                         type="video/mp4">
@@ -38,7 +38,7 @@
                 background-color: #000000;
                 position: absolute;
                 top: 0;
-                opacity: 0;
+                opacity: .5;
                 z-index: 6;
             }
 
@@ -53,11 +53,11 @@
                         <div class="col-12">
                             <div class="text-center">
                                 <h1 data-aos="flip-left" data-aos-delay="200">
-                                    THEME OF<br>THE EVENT
+                                    Crafted Networking<br> Excellence
                                 </h1>
                                 <div class="mt-5">
                                     <h4 data-aos="flip-left" data-aos-delay="600">4 - 5
-                                        NOVEMBER 2024</h4>
+                                        DEC 2024</h4>
                                     <h4 data-aos="flip-left" data-aos-delay="600">
                                         DUBAI, UAE</h4>
                                 </div>
