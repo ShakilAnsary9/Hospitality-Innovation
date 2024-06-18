@@ -1,4 +1,5 @@
 <section class="testimonials">
+    <?php $testimonials = get_field("testimonials"); ?>
     <div class="container">
         <div class="d-flex justify-content-center">
             <h3 class="text-center tag__title">Testimonials</h3>
@@ -6,28 +7,25 @@
         <div>
             <div class="swiper mySwiper3">
                 <div class="swiper-wrapper">
+                <?php foreach  ($testimonials as $testimonial) : ?>
                     <div class="swiper-slide">
                         <div class="testimonial__wrapper">
                             <div class="testimonial__box">
                                 <div class="row">
                                     <div class="col-12 col-md-8">
                                         <div class="testimonial__content">
-                                            <p>It’s a great chance so much time with the buyer, and it’s very important
-                                                to maximize our presence in Saudi Arabia. It’s a great opportunity to
-                                                interact with a lot of players in the business in a very short time and
-                                                to have very effective conversations. If I had to do it in a different
-                                                way, it would take me much more time and would be less effective, so I’m
-                                                grateful for this chance
+                                            <p>
+                                                <?= $testimonial['paragraph']?>
                                             </p>
                                             <div class="pt-3">
-                                                <h5>ABB</h5>
-                                                <h6>VP Global Marketing - Smart Buildings</h6>
+                                                <h5><?= $testimonial['company']?></h5>
+                                                <h6><?= $testimonial['location']?></h6>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-12 col-md-4">
                                         <div class="testimonial__logo">
-                                            <img src="http://saudiarabia.redevelopmentsummit.com/wp-content/uploads/2024/06/abb-t.jpg"
+                                            <img src="<?= $testimonial['image']?>"
                                                 alt="">
                                         </div>
                                     </div>
@@ -35,7 +33,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
+                    <?php endforeach; ?>
+                    <!-- <div class="swiper-slide">
                         <div class="testimonial__wrapper">
                             <div class="testimonial__box">
                                 <div class="row">
@@ -218,8 +217,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-
+                    </div> -->
                 </div>
                 <div class="swiper-button-next"></div>
                 <div class="swiper-button-prev"></div>

@@ -1,4 +1,5 @@
 <section class="event__numbers">
+    <?php $eventnumbers = get_field("event_numbers"); ?>
     <div class="container-fluid g-0">
         <div class="d-flex justify-content-center">
             <h3 class="text-center tag__title">Event Numbers</h3>
@@ -9,7 +10,7 @@
                     <div class="col-6 col-lg-3">
                         <div class="number__box">
                             <div class="d-flex align-items-center justify-content-center">
-                                <h5 class="odometer" data-value="19">0</h5>
+                                <h5 class="odometer" data-value="<?= $eventnumbers['events']?>">0</h5>
                                 <span class="sign"></span>
                             </div>
                             <h6>Events</h6>
@@ -18,7 +19,7 @@
                     <div class="col-6 col-lg-3">
                         <div class="number__box">
                             <div class="d-flex align-items-center justify-content-center">
-                                <h5 class="odometer" data-value="430">0</h5>
+                                <h5 class="odometer" data-value="<?= $eventnumbers['speakers']?>">0</h5>
                                 <span class="sign">+</span>
                             </div>
                             <h6>Speakers</h6>
@@ -27,7 +28,7 @@
                     <div class="col-6 col-lg-3">
                         <div class="number__box">
                             <div class="d-flex align-items-center justify-content-center">
-                                <h5 class="odometer" data-value="1200">0</h5>
+                                <h5 class="odometer" data-value="<?= $eventnumbers['solution_provider']?>">0</h5>
                                 <span class="sign">+</span>
                             </div>
                             <h6>Solution Provider</h6>
@@ -36,7 +37,7 @@
                     <div class="col-6 col-lg-3">
                         <div class="number__box">
                             <div class="d-flex align-items-center justify-content-center">
-                                <h5 class="odometer" data-value="2000">0</h5>
+                                <h5 class="odometer" data-value="<?= $eventnumbers['buyers']?>">0</h5>
                                 <span class="sign">+</span>
                             </div>
                             <h6>Buyers</h6>
@@ -45,7 +46,7 @@
                     <div class="col-6 col-lg-3">
                         <div class="number__box">
                             <div class="d-flex align-items-center justify-content-center">
-                                <h5 class="odometer" data-value="19000">0</h5>
+                                <h5 class="odometer" data-value="<?= $eventnumbers['b2b_meeting']?>">0</h5>
                                 <span class="sign">+</span>
                             </div>
                             <h6>B2B Meetings</h6>

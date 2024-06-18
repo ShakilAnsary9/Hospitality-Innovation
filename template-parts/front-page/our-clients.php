@@ -1,4 +1,5 @@
 <section class="our__clients">
+    <?php $clients = get_field("client"); ?>
     <div class="container-fluid">
         <div class="d-flex justify-content-center">
             <h3 class="text-center tag__title">Our Clients</h3>
@@ -6,13 +7,17 @@
         <div class="our__client_logos01">
             <div class="swiper mySwiper2">
                 <div class="swiper-wrapper">
+
+                    <?php $firstrowlogos = $clients['client_first_row'];
+                    foreach ($firstrowlogos as $firstrowlogo) : ?>
                     <div class="swiper-slide">
                         <div class="client__logo">
-                            <img src="http://saudiarabia.redevelopmentsummit.com/wp-content/uploads/2024/06/Accor-1.jpg"
+                            <img src="<?= $firstrowlogo ['image']; ?>"
                                 alt="">
                         </div>
+                        <?php endforeach; ?>
                     </div>
-                    <div class="swiper-slide">
+                    <!-- <div class="swiper-slide">
                         <div class="client__logo">
                             <img src="http://saudiarabia.redevelopmentsummit.com/wp-content/uploads/2024/06/Al-Bawani-1.jpg"
                                 alt="">
@@ -35,7 +40,7 @@
                             <img src="http://saudiarabia.redevelopmentsummit.com/wp-content/uploads/2024/06/Diriyah-Company.jpg"
                                 alt="">
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -44,7 +49,7 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="client__logo">
-                            <img src="http://saudiarabia.redevelopmentsummit.com/wp-content/uploads/2024/06/FEBC-1.jpg"
+                            <img src="http://saudiarabia.redevelopmentsummit.com/wp-content/uploads/2024/06/IHG-Hotels.jpg"
                                 alt="">
                         </div>
                     </div>

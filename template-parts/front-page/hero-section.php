@@ -26,7 +26,7 @@
                 <!-- Remove d-none if video need -->
                 <video autoplay muted loop style class="hero-video">
                     <source
-                        src="http://europe.redevelopmentsummit.com/wp-content/uploads/2024/04/REDS-Website-Cover-Video_V31.mp4"
+                        src="<?= $hero_section['background_video']?>"
                         type="video/mp4">
                 </video>
             </div>
@@ -38,7 +38,7 @@
                 background-color: #000000;
                 position: absolute;
                 top: 0;
-                opacity: .5;
+                opacity: <?= $hero_section['overlay_opacity']?>;
                 z-index: 6;
             }
 
@@ -53,13 +53,11 @@
                         <div class="col-12">
                             <div class="text-center">
                                 <h1 data-aos="flip-left" data-aos-delay="200">
-                                    Crafted Networking<br> Excellence
+                                    <?= $hero_section['title']?>
                                 </h1>
                                 <div class="mt-5">
-                                    <h4 data-aos="flip-left" data-aos-delay="600">4 - 5
-                                        DEC 2024</h4>
-                                    <h4 data-aos="flip-left" data-aos-delay="600">
-                                        DUBAI, UAE</h4>
+                                    <h4 data-aos="flip-left" data-aos-delay="600"><?= $hero_section['date']?></h4>
+                                    <h4 data-aos="flip-left" data-aos-delay="600"><?= $hero_section['venue']?></h4>
                                 </div>
                             </div>
                         </div>

@@ -1,15 +1,18 @@
 <section class="features">
+    <?php $features = get_field("features"); ?>
     <div class="container">
         <div class="d-flex justify-content-center">
             <h3 class="text-center tag__title">Features of the event</h3>
         </div>
         <div class="row g-3 mt-3">
+        <?php foreach  ($features as $feature) : ?>
             <div class="col-6 col-md-3">
                 <div class="feature__card">
-                    <h4>Pre-Qualified Delegates</h4>
+                    <h4><?= $feature['features']?></h4>
                 </div>
             </div>
-            <div class="col-6 col-md-3">
+            <?php endforeach; ?>
+            <!-- <div class="col-6 col-md-3">
                 <div class="feature__card">
                     <h4>Global Suppliers</h4>
                 </div>
@@ -63,7 +66,7 @@
                 <div class="feature__card">
                     <h4>Decision Makers Only Platform</h4>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </section>
