@@ -31,8 +31,8 @@
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
-  visibility: hidden;
-}
+  visibility: hidden; 
+} 
 .odometer.odometer-auto-theme .odometer-digit .odometer-digit-spacer,
 .odometer.odometer-theme-default .odometer-digit .odometer-digit-spacer {
   *display: inline;

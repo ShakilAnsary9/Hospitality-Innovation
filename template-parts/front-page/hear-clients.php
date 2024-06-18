@@ -1,16 +1,19 @@
 <section class="hear__clients">
+    <?php $hearclients = get_field("hear_clients"); ?>
     <div class="container">
         <h2 class="text-center">Hear from our Clients</h2>
         <div class="client__sliders">
             <div class="swiper mySwiper4">
                 <div class="swiper-wrapper">
+                <?php foreach  ($hearclients as $hearclient) : ?>
                     <div class="swiper-slide">
-                        <div class="video__img cli-thumb" data-video="https://www.youtube.com/embed/n5wHflDj2s0">
-                            <img src="http://europe.redevelopmentsummit.com/wp-content/uploads/2024/03/Testimonial-Videos_Thumbnail-01.jpg"
+                        <div class="video__img cli-thumb" data-video="<?= $hearclient['video']?>">
+                            <img src="<?= $hearclient['image']?>"
                                 alt="">
                         </div>
                     </div>
-                    <div class="swiper-slide">
+                    <?php endforeach; ?>
+                    <!-- <div class="swiper-slide">
                         <div class="video__img cli-thumb" data-video="https://www.youtube.com/embed/6LzHmGpuc4I">
                             <img src="http://europe.redevelopmentsummit.com/wp-content/uploads/2024/03/Testimonial-Videos_Thumbnail-02.jpg"
                                 alt="">
@@ -45,7 +48,7 @@
                             <img src="http://europe.redevelopmentsummit.com/wp-content/uploads/2024/03/Testimonial-Videos_Thumbnail-07.jpg"
                                 alt="">
                         </div>
-                    </div>
+                    </div> -->
 
                 </div>
                 <div class="swiper-button-next"></div>

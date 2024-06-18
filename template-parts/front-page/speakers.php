@@ -1,36 +1,24 @@
 <section class="speakers">
+    <?php $speakers = get_field("speaker"); ?>
     <div class="container">
         <h2 class="text-center">Speakers</h2>
 
         <div>
             <div class="swiper mySwiper6">
                 <div class="swiper-wrapper">
+                    <?php foreach  ($speakers as $speaker) : ?>
                     <div class="swiper-slide">
                         <div class="speaker__box text-center">
                             <div class="speaker__img">
-                                <img src="http://saudiarabia.redevelopmentsummit.com/wp-content/uploads/2024/06/HIS-Africa-Website-Design_Khaled-M-Abbas-Deputy-Minister-of-Housing-Utilities-and-Urban-Communities-for-National-Projects-M.png"
+                                <img src="<?= $speaker ['image']; ?>"
                                     alt="">
                             </div>
-                            <h5>Khaled M Abbas</h5>
-                            <p>Deputy Minister of Housing</p>
-                            <p>Utilities and Urban Communities for National Projects</p>
+                            <h5><?= $speaker ['name']; ?></h5>
+                            <p><?= $speaker ['designation']; ?></p>
+                            <p><?= $speaker ['company']; ?></p>
                         </div>
                     </div>
-                    <div class="swiper-slide">
-                        <div class="speaker__box text-center">
-                            <div class="speaker__img">
-                                <img src="http://saudiarabia.redevelopmentsummit.com/wp-content/uploads/2024/06/HIS-Africa-Website-Design_Kola-Ashiru-Balogun-2.png"
-                                    alt="">
-                            </div>
-                            <h5>Kola Ashiru</h5>
-                            <p></p>
-                            <p>Balogun</p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">Slide 3</div>
-                    <div class="swiper-slide">Slide 4</div>
-                    <div class="swiper-slide">Slide 5</div>
-                    <div class="swiper-slide">Slide 5</div>
+                    <?php endforeach; ?>
                 </div>
                 <div class="position-relative mt-5">
                     <div class="swiper-pagination"></div>
